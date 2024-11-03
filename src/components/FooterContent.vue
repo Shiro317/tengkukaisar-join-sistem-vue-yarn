@@ -5,11 +5,11 @@
     <div class="w-full h-auto flex flex-col md:flex-row items-start md:items-center justify-between mb-6 md:mb-10">
       <img src="@/assets/images/logo/finsweet.png" alt="Finsweet" class="mb-4 md:mb-0 w-32 md:w-auto" />
       <ul class="flex flex-col md:flex-row gap-4 md:gap-6 text-center">
-        <li><a href="/" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Home</a></li>
-        <li><a href="/blog" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Blog</a></li>
-        <li><a href="/aboutus" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">About Us</a></li>
-        <li><a href="/contactus" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Contact Us</a></li>
-        <li><a href="/privacypolicy" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Privacy Policy</a></li>
+        <li><router-link to="/" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Home</router-link></li>
+        <li><router-link to="/blog" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Blog</router-link></li>
+        <li><router-link to="/aboutus" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">About Us</router-link></li>
+        <li><router-link to="/contactus" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Contact Us</router-link></li>
+        <li><router-link to="/privacypolicy" class="text-white hover:text-x-yellow transition duration-150 ease-in-out">Privacy Policy</router-link></li>
       </ul>
     </div>
     
@@ -24,10 +24,10 @@
     <div class="flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 text-center md:text-left">
       <span class="text-white text-opacity-70">Finstreet 118 2561 Fintown</span>
       <ul class="flex gap-4">
-        <li><a href="#"><img src="@/assets/images/logo/facebook.png" alt="Facebook" class="hover:opacity-75 transition duration-150 ease-in-out w-6 h-6 md:w-auto md:h-auto" /></a></li>
-        <li><a href="#"><img src="@/assets/images/logo/twitter.png" alt="Twitter" class="hover:opacity-75 transition duration-150 ease-in-out w-6 h-6 md:w-auto md:h-auto" /></a></li>
-        <li><a href="#"><img src="@/assets/images/logo/instagram.png" alt="Instagram" class="hover:opacity-75 transition duration-150 ease-in-out w-6 h-6 md:w-auto md:h-auto" /></a></li>
-        <li><a href="#"><img src="@/assets/images/logo/linkedin.png" alt="LinkedIn" class="hover:opacity-75 transition duration-150 ease-in-out w-6 h-6 md:w-auto md:h-auto" /></a></li>
+        <li><router-link to="#"><img src="@/assets/images/logo/facebook.png" alt="Facebook" class="hover:opacity-75 transition duration-150 ease-in-out w-6 h-6 md:w-auto md:h-auto" /></router-link></li>
+        <li><router-link to="#"><img src="@/assets/images/logo/twitter.png" alt="Twitter" class="hover:opacity-75 transition duration-150 ease-in-out w-6 h-6 md:w-auto md:h-auto" /></router-link></li>
+        <li><router-link to="#"><img src="@/assets/images/logo/instagram.png" alt="Instagram" class="hover:opacity-75 transition duration-150 ease-in-out w-6 h-6 md:w-auto md:h-auto" /></router-link></li>
+        <li><router-link to="#"><img src="@/assets/images/logo/linkedin.png" alt="LinkedIn" class="hover:opacity-75 transition duration-150 ease-in-out w-6 h-6 md:w-auto md:h-auto" /></router-link></li>
       </ul>
     </div>
     <div class="text-white text-opacity-70 text-center md:text-left mt-4 md:mt-0">Hello@finsweet.com 020 7993 2905</div>
