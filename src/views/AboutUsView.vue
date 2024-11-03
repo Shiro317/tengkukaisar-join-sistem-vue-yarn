@@ -65,7 +65,7 @@ import JoinContent from '@/components/JoinContent.vue'
       </div>
 
       <div
-        class="mission-vision bg-gray-100 py-32 px-16 max-md:px-5 max-md:pt-24"
+        class="mission-vision bg-x-lavender py-32 px-16 max-md:px-5 max-md:pt-24"
       >
         <div class="container mx-auto max-w-[1053px]">
           <div class="flex gap-8 max-md:flex-col">
