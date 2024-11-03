@@ -120,9 +120,8 @@ function submitForm() {
               <hr class="my-2 border-x-mediumgrey w-[250px]" />
               <p class="font-bold text-x-darkgrey mt-2">020 7993 2905</p>
               <p>
-                <a href="mailto:hello@finsweet.com" class="text-x-mediumgrey"
-                  >hello@finsweet.com</a
-                >
+                <router-link to="mailto:hello@finsweet.com" class="text-x-mediumgrey"
+                  >hello@finsweet.com</router-link>
               </p>
             </div>
           </div>
