@@ -186,7 +186,7 @@ import JoinContent from '@/components/JoinContent.vue'
     <h2
       class="text-x-black text-4xl text-center font-bold leading-[48px] tracking-[-2px]"
     >
-      <a href="/author"> List of Authors</a>
+      <router-link to="/author"> List of Authors</router-link>
     </h2>
 
     <AuthorContent />
@@ -215,40 +215,40 @@ import JoinContent from '@/components/JoinContent.vue'
           </div>
           <ul class="flex items-center gap-6">
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/facebook.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/twitter.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/instagram.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/linkedin.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
           </ul>
         </div>
@@ -274,40 +274,40 @@ import JoinContent from '@/components/JoinContent.vue'
           </div>
           <ul class="flex items-center gap-6">
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/facebook.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/twitter.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/instagram.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/linkedin.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
           </ul>
         </div>
@@ -333,40 +333,40 @@ import JoinContent from '@/components/JoinContent.vue'
           </div>
           <ul class="flex items-center gap-6">
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/facebook.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/twitter.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/instagram.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/linkedin.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
           </ul>
         </div>
@@ -390,40 +390,40 @@ import JoinContent from '@/components/JoinContent.vue'
           </div>
           <ul class="flex items-center gap-6">
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/facebook.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/twitter.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/instagram.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
             <li>
-              <a href="#">
+              <router-link to="#">
                 <img
                   src="@/assets/images/logo/linkedin.png"
                   alt=""
                   class="hover:opacity-75 transition duration-150 ease-in-out"
                 />
-              </a>
+              </router-link>
             </li>
           </ul>
         </div>
