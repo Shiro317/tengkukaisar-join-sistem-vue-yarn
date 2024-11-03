@@ -253,7 +253,7 @@ import JoinContent from '@/components/JoinContent.vue'
           </ul>
         </div>
         <div
-          class="w-[296px] bg-x-lightgrey flex flex-col items-center justify-center gap-4 p-6"
+          class="w-[296px] bg-x-lightgrey flex flex-col items-center justify-center gap-4 p-6 hover:bg-x-lightyellow hover:cursor-pointer transition duration-200 ease-in-out"
         >
           <img
             src="@/assets/images/misc/listauthor6.png"
