@@ -3,8 +3,7 @@
 <template>
   <section class="flex flex-col gap-8 bg-white px-[80px] py-[40px]">
     <div class="flex items-center justify-between gap-6">
-      <a
-        href="/category"
+      <router-link to="/category"
         class="w-[296px] h-[228px] flex flex-col gap-4 border border-x-mediumgrey bg-opacity-30 p-6 hover:bg-x-blue hover:border-x-blue hover:cursor-pointer transition duration-200 ease-in-out group"
       >
         <div
@@ -22,7 +21,7 @@
         >
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         </p>
-      </a>
+      </router-link>
       <div class="w-[296px] h-[228px] flex flex-col bg-x-blue gap-4 p-6">
         <div
           class="w-[48px] h-[48px] bg-x-lightyellow rounded flex items-center justify-center"
@@ -38,8 +37,7 @@
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         </p>
       </div>
-      <a
-        href="/category"
+      <router-link to="/category"
         class="w-[296px] h-[228px] flex flex-col gap-4 border border-x-mediumgrey bg-opacity-30 p-6 hover:bg-x-blue hover:border-x-blue hover:cursor-pointer transition duration-200 ease-in-out group"
       >
         <div
@@ -57,9 +55,8 @@
         >
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         </p>
-      </a>
-      <a
-        href="/category"
+      </router-link>
+      <router-link to="/category"
         class="w-[296px] h-[228px] flex flex-col gap-4 border border-x-mediumgrey bg-opacity-30 p-6 hover:bg-x-blue hover:border-x-blue hover:cursor-pointer transition duration-200 ease-in-out group"
       >
         <div
@@ -77,7 +74,7 @@
         >
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
         </p>
-      </a>
+      </router-link>
     </div>
   </section>
 </template>
