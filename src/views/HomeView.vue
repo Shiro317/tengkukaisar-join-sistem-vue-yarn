@@ -32,12 +32,11 @@ import MainLayout from '@/layouts/MainLayout.vue'
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident.
           </p>
-          <a
-            href="blog/post"
+          <router-link to="blog/post"
             class="w-[204px] flex items-center justify-center bg-x-blue px-[48px] py-[16px] text-white font-bold hover:bg-x-yellow transition duration-150 ease-in-out"
           >
             Read More >
-          </a>
+          </router-link>
         </div>
       </section>
 
@@ -73,12 +72,11 @@ import MainLayout from '@/layouts/MainLayout.vue'
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident.
               </p>
-              <a
-                href="#"
+              <router-link to="#"
                 class="w-[204px] flex items-center justify-center bg-x-blue px-[48px] py-[16px] text-white font-bold hover:bg-x-yellow transition duration-150 ease-in-out"
               >
                 Read More >
-              </a>
+              </router-link>
             </div>
           </div>
         </div>
@@ -89,7 +87,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
             >
               All Post
             </h2>
-            <a href="#" class="text-x-yellow leading-[28px]">View All</a>
+            <router-link to="#" class="text-x-yellow leading-[28px]">View All</router-link>
           </div>
           <div>
             <div
@@ -171,11 +169,9 @@ import MainLayout from '@/layouts/MainLayout.vue'
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a
-              href="#"
+            <router-link to="#"
               class="text-x-yellow text-[18px] font-bold leading-[32px] hover:text-x-black transition duration-200 ease-in-out"
-              >Read More ></a
-            >
+              >Read More ></router-link>
           </div>
           <div class="w-[50%] flex flex-col gap-4">
             <h5
@@ -229,12 +225,11 @@ import MainLayout from '@/layouts/MainLayout.vue'
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip.
             </p>
-            <a
-              href="#"
+            <router-link to="#"
               class="w-[269px] flex items-center justify-center bg-x-blue px-[48px] py-[16px] text-white font-bold hover:bg-x-yellow transition duration-150 ease-in-out"
             >
               Discover our story >
-            </a>
+            </router-link>
           </div>
         </div>
       </section>
@@ -243,7 +238,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
       <h2
         class="text-x-black text-4xl text-center font-bold leading-[48px] tracking-[-2px]"
       >
-        <a href="/author"> List of Authors </a>
+        <router-link to="/author"> List of Authors </router-link>
       </h2>
       <AuthorContent />
 
