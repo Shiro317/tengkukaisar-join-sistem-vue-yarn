@@ -25,40 +25,40 @@
         </div>
         <ul class="flex items-center gap-6">
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/facebook.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/twitter.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/instagram.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/linkedin.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>
@@ -84,40 +84,40 @@
         </div>
         <ul class="flex items-center gap-6">
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/facebook.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/twitter.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/instagram.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/linkedin.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>
@@ -143,40 +143,40 @@
         </div>
         <ul class="flex items-center gap-6">
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/facebook.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/twitter.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/instagram.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link to>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/linkedin.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>
@@ -200,40 +200,40 @@
         </div>
         <ul class="flex items-center gap-6">
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/facebook.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/twitter.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/instagram.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
           <li>
-            <a href="#">
+            <router-link to="#">
               <img
                 src="@/assets/images/logo/linkedin.png"
                 alt=""
                 class="hover:opacity-75 transition duration-150 ease-in-out"
               />
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>
