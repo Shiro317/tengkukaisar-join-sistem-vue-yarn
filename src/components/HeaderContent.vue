@@ -7,38 +7,28 @@
     <img src="@/assets/images/logo/sistem.png" alt="Join Sistem Logo" />
     <ul class="flex gap-6">
       <li>
-        <a
-          href="/"
+        <router-link to="/"
           class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-          >Home</a
-        >
+          >Home</router-link>
       </li>
       <li>
-        <a
-          href="/blog"
+        <router-link to="/blog"
           class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-          >Blog</a
-        >
+          >Blog</router-link>
       </li>
       <li>
-        <a
-          href="/aboutus"
+        <router-link to="/aboutus"
           class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-          >About Us</a
-        >
+          >About Us</router-link>
       </li>
       <li>
-        <a
-          href="/contactus"
+        <router-link to="/contactus"
           class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-          >Contact Us</a
-        >
+          >Contact Us</router-link>
       </li>
     </ul>
-    <a
-      href="/contactus"
+    <router-link to="/contactus"
       class="bg-x-blue px-4 py-2 rounded-[63px] text-white hover:bg-x-yellow transition duration-150 ease-in-out"
-      >Contact Us</a
-    >
+      >Contact Us</router-link>
   </nav>
 </template>
